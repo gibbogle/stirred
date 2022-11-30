@@ -1,0 +1,80 @@
+msg: OS is Windows
+msg: Executing with OpenMP
+msg:  inputfile:  exp1.inp
+msg:  outputfile: pest.out
+msg: ReadCellParams new
+ spcrad_value:    200.000000000000     
+ Ndrugs_used:            1
+msg:  ReadDrugData
+im, membrane_diff_in, out:    0   0.123E-09   0.500E-12
+Kmet0,Kd read:    1   0   1  0.0000  0.0000
+Kmet0,Kd read:    1   0   2  2.0000  0.0000
+im, membrane_diff_in, out:    1   0.300E-11   0.300E-11
+Kmet0,Kd read:    1   1   1  0.0000  0.0920
+Kmet0,Kd read:    1   1   2  0.0000  0.0920
+ drug:            1 DNB  Tarlox          
+ nmetabolites:            1
+ Ndrugs_used:            1
+msg:  ReadProtocol:
+DRUG                                                            
+Tarlox                                                          
+ ndrugs_used:            1
+ Tarlox          Tarlox          
+ ichemo:            5
+define DRUG_EVENT: volume, O2conc:   1   0.050 580.000
+define MEDIUM_EVENT: volume:   2  10.000 580.000
+msg:  nevents:            2
+ Type 1 cells
+msg: shape, sigma:   0.1200E+01  0.1200E+01  0.1823E+00  0.1823E+00
+msg: Median, mean divide time:   0.2400E+02  0.2400E+02  0.2440E+02  0.2440E+02
+ 
+GUI version: GUI2.0      
+DLL version: DLL2.0      
+ 
+msg: nsteps, NT_CONC, DELTA_T:    129     1  200.
+msg: NT_DISPLAY, DT_DISPLAY:      1  200.
+msg: did ReadCellParams
+msg:  ncpu:            1
+msg: OPENMP defined
+msg: Requested Mnodes:  1
+msg: Machine processors:  8
+msg: Max threads available:  8
+msg:  Threads, max:            1           1
+msg: did omp_initialisation
+msg:  npar =            1        1234        5678
+msg: did deallocation
+msg:  Initial count, max_nlist:     54000000       10000
+msg: did ArrayInitialisation
+msg: Startup procedures have been executed: initial T cell count:      0
+Event:      0  1      0.      0.  5    0.0500 1100.0000
+msg: DRUG_EVENT: volume, conc:       0.0500   1100.0000     55.0000
+ 
+ MediumChange:
+Ve:   0.0500
+Ce:    0.580E+03   0.550E+01   0.000E+00   0.000E+00   0.110E+04   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00
+total_volume, Vcells, Vm, Vr:  10.0000  0.1229  9.8771  0.0000
+mass:  29.0000  0.2750  0.0000  0.0000 55.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+New total_volume (total + Ve):  10.0500
+Volume of medium (total - Vcells):   9.9271
+Conc:   2.9213  0.0277  0.0000  0.0000  5.5404  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+idrug,iparent,im,ichemo,Cmedium:   1  5  0  5   0.554E+01
+idrug,iparent,im,ichemo,Cmedium:   1  5  1  6   0.000E+00
+ 
+msg: istep,hour,IC,EC:      0   0.0   0.542E+02   0.487E+01   0.650E+00   0.104E-02
+msg: istep,hour,IC,EC:      9   0.5   0.275E+03   0.208E+01   0.160E+01   0.171E-01
+msg: istep,hour,IC,EC:     18   1.0   0.315E+03   0.149E+01   0.161E+01   0.197E-01
+msg: istep,hour,IC,EC:     27   1.5   0.319E+03   0.135E+01   0.161E+01   0.200E-01
+msg: istep,hour,IC,EC:     36   2.0   0.315E+03   0.131E+01   0.161E+01   0.200E-01
+msg: istep,hour,IC,EC:     45   2.5   0.310E+03   0.128E+01   0.161E+01   0.200E-01
+msg: istep,hour,IC,EC:     54   3.0   0.305E+03   0.125E+01   0.161E+01   0.200E-01
+ 
+ Un-normalised sample:
+   0.137500E+03   0.382828E+01   0.126653E+01   0.582994E-02   0.274752E+03   0.207840E+01   0.160025E+01   0.170800E-01   0.315315E+03   0.149057E+01   0.161126E+01   0.196900E-01   0.315407E+03   0.130588E+01   0.161163E+01   0.199848E-01   0.304609E+03   0.125438E+01   0.161163E+01   0.199877E-01
+ 
+msg: terminate_run
+msg: doing wrapup ...
+msg: deallocated all arrays
+msg: closed nfout
+msg: closed files
+msg: freed par_zig
+msg: Execution time (min):       0.00

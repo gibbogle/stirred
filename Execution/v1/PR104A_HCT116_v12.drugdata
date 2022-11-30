@@ -1,0 +1,134 @@
+DNB             CLASS_NAME
+2               N_METABOLITES
+PR104A          DRUG_NAME
+1.44e-06        DIFF_COEF                         Spheroid diffusion coeff
+9.8e-06         MEDIUM_DIFF                       Medium diffusion coeff
+90              CELL_DIFF_IN                      Membrane diff (in)
+5               CELL_DIFF_OUT                     Membrane diff (out)
+1000            HALFLIFE                          Half-life
+0               KMET0_CELL1                       Kmet0
+0               C2_CELL1                          C2
+1               KO2_CELL1                         KO2
+0               VMAX_CELL1                        Vmax
+1               KM_CELL1                          Km
+0.001           KLESION_CELL1                     Klesion
+0               KILL_O2_CONC_CELL1                Expt O2 conc
+0               KILL_DRUG_CONC_CELL1              Expt Drug conc
+60              KILL_DURATION_CELL1               Expt Duration
+0.9             KILL_FRACTION_CELL1               Expt Kill fraction
+1.5             SER_max
+0.3401          SER_Km
+200             SER_KO2
+1               n_O2
+1               DEATH_PROB
+0               KD_CELL1
+0               kills
+4               KILL_MODEL_CELL1                  Kill model
+1               sensitises
+0.1             KMET0_CELL2                       Kmet0
+0.99            C2_CELL2                          C2
+0.01            KO2_CELL2                         KO2
+0               VMAX_CELL2                        Vmax
+1               KM_CELL2                          Km
+0.001           KLESION_CELL2                     Klesion
+0               KILL_O2_CONC_CELL2                Expt O2 conc
+0               KILL_DRUG_CONC_CELL2              Expt Drug conc
+60              KILL_DURATION_CELL2               Expt Duration
+0.9             KILL_FRACTION_CELL2               Expt Kill fraction
+0               SER_max
+0               SER_Km
+0               SER_KO2
+1               n_O2
+1               DEATH_PROB
+0               KD_CELL2
+0               kills
+4               KILL_MODEL_CELL2                  Kill model
+0               sensitises
+METAB1          METABOLITE
+1.44e-06        DIFF_COEF                         Spheroid diffusion coeff
+9.8e-06         MEDIUM_DIFF                       Medium diffusion coeff
+1               CELL_DIFF_IN                      Membrane diff (in)
+1               CELL_DIFF_OUT                     Membrane diff (out)
+1000            HALFLIFE                          Half-life
+0               KMET0_CELL1_MET1                  Kmet0
+0               C2_CELL1_MET1                     C2
+1               KO2_CELL1_MET1                    KO2
+0               VMAX_CELL1_MET1                   Vmax
+1               KM_CELL1_MET1                     Km
+0.001           KLESION_CELL1_MET1                Klesion
+0               KILL_O2_CONC_CELL1_MET1           Expt O2 conc
+0               KILL_DRUG_CONC_CELL1_MET1         Expt Drug conc
+60              KILL_DURATION_CELL1_MET1          Expt Duration
+0.9             KILL_FRACTION_CELL1_MET1          Expt Kill fraction
+5e-05           SER_max
+0.0003401       SER_Km
+200             SER_KO2
+1               n_O2
+1               DEATH_PROB
+0               KD_CELL1_MET1
+0               kills
+4               KILL_MODEL_CELL1                  Kill model
+0               sensitises
+0.01            KMET0_CELL2_MET1                  Kmet0
+0               C2_CELL2_MET1                     C2
+1               KO2_CELL2_MET1                    KO2
+0               VMAX_CELL2_MET1                   Vmax
+1               KM_CELL2_MET1                     Km
+0.001           KLESION_CELL2_MET1                Klesion
+0               KILL_O2_CONC_CELL2_MET1           Expt O2 conc
+0               KILL_DRUG_CONC_CELL2_MET1         Expt Drug conc
+60              KILL_DURATION_CELL2_MET1          Expt Duration
+0.9             KILL_FRACTION_CELL2_MET1          Expt Kill fraction
+0               SER_max
+0               SER_Km
+0               SER_KO2
+1               n_O2
+1               DEATH_PROB
+0               KD_CELL2_MET1
+0               kills
+4               KILL_MODEL_CELL2                  Kill model
+0               sensitises
+METAB2          METABOLITE
+1.44e-06        DIFF_COEF                         Spheroid diffusion coeff
+1.181e-05       MEDIUM_DIFF                       Medium diffusion coeff
+1               CELL_DIFF_IN                      Membrane diff (in)
+1               CELL_DIFF_OUT                     Membrane diff (out)
+0               HALFLIFE                          Half-life
+0               KMET0_CELL1_MET2                  Kmet0
+0               C2_CELL1_MET2                     C2
+1               KO2_CELL1_MET2                    KO2
+0               VMAX_CELL1_MET2                   Vmax
+1               KM_CELL1_MET2                     Km
+0.001           KLESION_CELL1_MET2                Klesion
+0               KILL_O2_CONC_CELL1_MET2           Expt O2 conc
+0               KILL_DRUG_CONC_CELL1_MET2         Expt Drug conc
+60              KILL_DURATION_CELL1_MET2          Expt Duration
+0.9             KILL_FRACTION_CELL1_MET2          Expt Kill fraction
+0               SER_max
+0               SER_Km
+0               SER_KO2
+1               n_O2
+1               DEATH_PROB
+0               KD_CELL1_MET2
+0               kills
+4               KILL_MODEL_CELL1                  Kill model
+0               sensitises
+0               KMET0_CELL2_MET2                  Kmet0
+0               C2_CELL2_MET2                     C2
+1               KO2_CELL2_MET2                    KO2
+0               VMAX_CELL2_MET2                   Vmax
+1               KM_CELL2_MET2                     Km
+0.001           KLESION_CELL2_MET2                Klesion
+0               KILL_O2_CONC_CELL2_MET2           Expt O2 conc
+0               KILL_DRUG_CONC_CELL2_MET2         Expt Drug conc
+60              KILL_DURATION_CELL2_MET2          Expt Duration
+0.9             KILL_FRACTION_CELL2_MET2          Expt Kill fraction
+0               SER_max
+0               SER_Km
+0               SER_KO2
+1               n_O2
+1               DEATH_PROB
+0               KD_CELL2_MET2
+0               kills
+4               KILL_MODEL_CELL2                  Kill model
+0               sensitises

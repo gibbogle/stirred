@@ -1,0 +1,49 @@
+pcf
+* control data
+restart estimation
+4 20 4 0 1
+1 1 double point 1 0 0
+ 5.0   2.0   0.3  0.03    10
+ 3.0 2 0.001
+ 0.1
+  30  0.01     3     3  0.01     3
+   1     1     1
+* parameter groups
+vmax_cell1 relative 0.01  0.0  switch  2.0 parabolic
+km_cell1 relative 0.01  0.0  switch  2.0 parabolic
+diff_in_met1 relative 0.01  0.0  switch  2.0 parabolic
+diff_out_met relative 0.01  0.0  switch  2.0 parabolic
+* parameter data
+vmax_cell1 none factor 0.4 0.3 0.6 vmax_cell1 1.0      0.0000      1
+km_cell1 none factor 0.0015 0.0008 0.002 km_cell1 1.0      0.0000      1
+diff_in_met1 none factor 0.095 0.08 0.1 diff_in_met1 1.0      0.0000      1
+diff_out_met none factor 0.085 0.08 0.1 diff_out_met 1.0      0.0000      1
+* observation groups
+Exp1obgp
+* observation data
+Exp1H08C1 0.45082 1 Exp1obgp
+Exp1H08C2 2.94483 1 Exp1obgp
+Exp1H08C3 0.791582 1 Exp1obgp
+Exp1H08C4 0.291497 1 Exp1obgp
+Exp1H05C1 0.900826 1 Exp1obgp
+Exp1H05C2 1.59877 1 Exp1obgp
+Exp1H05C3 1.00016 1 Exp1obgp
+Exp1H05C4 0.854002 1 Exp1obgp
+Exp1H10C1 1.03382 1 Exp1obgp
+Exp1H10C2 1.14659 1 Exp1obgp
+Exp1H10C3 1.00704 1 Exp1obgp
+Exp1H10C4 0.984501 1 Exp1obgp
+Exp1H20C1 1.03412 1 Exp1obgp
+Exp1H20C2 1.00452 1 Exp1obgp
+Exp1H20C3 1.00727 1 Exp1obgp
+Exp1H20C4 0.99924 1 Exp1obgp
+Exp1H30C1 0.998717 1 Exp1obgp
+Exp1H30C2 0.964908 1 Exp1obgp
+Exp1H30C3 1.00727 1 Exp1obgp
+Exp1H30C4 0.999385 1 Exp1obgp
+* model command line
+stirred.bat > nul
+* model input/output
+Exp1.tpl Exp1.inp
+Exp1_out.ins Exp1_out.dat
+* prior information

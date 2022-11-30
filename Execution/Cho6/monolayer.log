@@ -1,0 +1,5 @@
+msg: OS is Windows
+msg: Executing with OpenMP
+msg:  inputfile:  m.inp
+msg:  outputfile: monolayer_main.res
+msg: ReadCellParams new

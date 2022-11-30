@@ -1,0 +1,50 @@
+ PARAMETER STATISTICAL MATRICES: CASE stirred
+
+ OPTIMISATION ITERATION NUMBER 12
+
+
+ Parameter standard deviations ----->
+
+ Adjustable        Group           Current          Standard
+ parameter                         value            deviation
+ vmax_cell1        vmax_cell1      0.500001         4.509352E-08
+ km_cell1          km_cell1        1.062060E-03     7.787582E-06
+ diff_in_met1      diff_in_met1    9.005113E-02     7.295293E-06
+ diff_out_met      diff_out_met    9.000029E-02     8.279869E-08
+
+ Note that if a parameter is log-transformed, the standard deviation in the 
+ above table refers to the log of the parameter. Note also that the objective
+ function used in the calculation of the covariance matrix (and eigenvalues
+ of the covariance matrix) was calculated at the end of the previous iteration.
+
+
+ Parameter covariance matrix ----->
+
+               vmax_cell1    km_cell1   diff_in_met1 diff_out_met
+ vmax_cell1     2.0334E-15   9.2834E-14   5.0630E-14   6.0695E-16
+ km_cell1       9.2834E-14   6.0646E-11   1.6190E-12   1.9715E-14
+ diff_in_met1   5.0630E-14   1.6190E-12   5.3221E-11   5.9320E-13
+ diff_out_met   6.0695E-16   1.9715E-14   5.9320E-13   6.8556E-15
+
+
+ Parameter correlation coefficient matrix ----->
+
+               vmax_cell1    km_cell1   diff_in_met1 diff_out_met
+ vmax_cell1      1.000       0.2644       0.1539       0.1626    
+ km_cell1       0.2644        1.000       2.8498E-02   3.0576E-02
+ diff_in_met1   0.1539       2.8498E-02    1.000       0.9821    
+ diff_out_met   0.1626       3.0576E-02   0.9821        1.000    
+
+
+ Normalized eigenvectors of covariance matrix ----->
+
+               Vector_1     Vector_2     Vector_3     Vector_4   
+ vmax_cell1    -2.4986E-02   0.9997       5.7847E-04  -1.6598E-03
+ km_cell1       1.0099E-05  -1.5068E-03  -0.2043      -0.9789    
+ diff_in_met1  -1.1118E-02  -1.1836E-03   0.9788      -0.2043    
+ diff_out_met   0.9996       2.4974E-02   1.0904E-02  -2.3043E-03
+
+
+ Eigenvalues ----->
+
+                2.4268E-16   1.8487E-15   5.2890E-11   6.0985E-11

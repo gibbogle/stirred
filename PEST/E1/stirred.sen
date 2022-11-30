@@ -1,0 +1,110 @@
+                       PARAMETER SENSITIVITIES: CASE stirred
+
+
+ OPTIMISATION ITERATION NO.  1 ----->
+ Parameter name    Group          Current value    Sensitivity
+   vmax_cell1      vmax_cell1      0.400000         0.291933    
+   km_cell1        km_cell1        1.500000E-03     3.333333E-03
+   diff_in_met1    diff_in_met1    9.500000E-02     7.303094E-03
+   diff_out_met    diff_out_met    8.500000E-02     0.674194    
+
+
+ OPTIMISATION ITERATION NO.  2 ----->
+ Parameter name    Group          Current value    Sensitivity
+   vmax_cell1      vmax_cell1      0.500001         0.291236    
+   km_cell1        km_cell1        1.087397E-03      0.00000    
+   diff_in_met1    diff_in_met1    9.494936E-02     8.845881E-03
+   diff_out_met    diff_out_met    9.117704E-02     0.788516    
+
+
+ OPTIMISATION ITERATION NO.  3 ----->
+ Parameter name    Group          Current value    Sensitivity
+   vmax_cell1      vmax_cell1      0.500004         0.291354    
+   km_cell1        km_cell1        1.087397E-03     6.502749E-03
+   diff_in_met1    diff_in_met1    9.490480E-02     9.236458E-03
+   diff_out_met    diff_out_met    9.004340E-02     0.797681    
+
+
+ OPTIMISATION ITERATION NO.  4 ----->
+ Parameter name    Group          Current value    Sensitivity
+   vmax_cell1      vmax_cell1      0.500008         0.291326    
+   km_cell1        km_cell1        1.667087E-03     2.999243E-03
+   diff_in_met1    diff_in_met1    9.450855E-02     9.059322E-03
+   diff_out_met    diff_out_met    9.005340E-02     0.798010    
+
+
+ OPTIMISATION ITERATION NO.  5 ----->
+ Parameter name    Group          Current value    Sensitivity
+   vmax_cell1      vmax_cell1      0.500002         0.291347    
+   km_cell1        km_cell1        2.000000E-03     4.330127E-03
+   diff_in_met1    diff_in_met1    9.160868E-02     9.026843E-03
+   diff_out_met    diff_out_met    9.001749E-02     0.798194    
+
+
+ OPTIMISATION ITERATION NO.  6 ----->
+ Parameter name    Group          Current value    Sensitivity
+   vmax_cell1      vmax_cell1      0.500004         0.291366    
+   km_cell1        km_cell1        2.000000E-03     3.535534E-03
+   diff_in_met1    diff_in_met1    9.035873E-02     9.281116E-03
+   diff_out_met    diff_out_met    9.000446E-02     0.798074    
+
+
+ OPTIMISATION ITERATION NO.  7 ----->
+ Parameter name    Group          Current value    Sensitivity
+   vmax_cell1      vmax_cell1      0.500003         0.291292    
+   km_cell1        km_cell1        1.697773E-03     2.945034E-03
+   diff_in_met1    diff_in_met1    9.019666E-02     9.080423E-03
+   diff_out_met    diff_out_met    9.000194E-02     0.798329    
+
+
+ OPTIMISATION ITERATION NO.  8 ----->
+ Parameter name    Group          Current value    Sensitivity
+   vmax_cell1      vmax_cell1      0.500002         0.291300    
+   km_cell1        km_cell1        1.289374E-03     5.484109E-03
+   diff_in_met1    diff_in_met1    8.955277E-02     9.080719E-03
+   diff_out_met    diff_out_met    8.999485E-02     0.798401    
+
+
+ OPTIMISATION ITERATION NO.  9 ----->
+ Parameter name    Group          Current value    Sensitivity
+   vmax_cell1      vmax_cell1      0.500001         0.291327    
+   km_cell1        km_cell1        1.213543E-03      0.00000    
+   diff_in_met1    diff_in_met1    9.002583E-02     9.295049E-03
+   diff_out_met    diff_out_met    9.000018E-02     0.797981    
+
+
+ OPTIMISATION ITERATION NO. 10 ----->
+ Parameter name    Group          Current value    Sensitivity
+   vmax_cell1      vmax_cell1      0.500001         0.291328    
+   km_cell1        km_cell1        1.213543E-03     2.725235E-03
+   diff_in_met1    diff_in_met1    9.004439E-02     9.127661E-03
+   diff_out_met    diff_out_met    9.000035E-02     0.802179    
+
+
+ OPTIMISATION ITERATION NO. 11 ----->
+ Parameter name    Group          Current value    Sensitivity
+   vmax_cell1      vmax_cell1      0.500001         0.291322    
+   km_cell1        km_cell1        1.103175E-03     1.962575E-03
+   diff_in_met1    diff_in_met1    9.008317E-02     9.126960E-03
+   diff_out_met    diff_out_met    9.000064E-02     0.802133    
+
+
+ OPTIMISATION ITERATION NO. 12 ----->
+ Parameter name    Group          Current value    Sensitivity
+   vmax_cell1      vmax_cell1      0.500001         0.291319    
+   km_cell1        km_cell1        1.062060E-03     1.664469E-03
+   diff_in_met1    diff_in_met1    9.005113E-02     9.091061E-03
+   diff_out_met    diff_out_met    9.000029E-02     0.802131    
+
+
+
+                        COMPLETION OF OPTIMISATION PROCESS
+
+ Composite sensitivities for all observations/prior info ----->
+
+ Number of observations with non-zero weight =    20
+ Parameter name    Group          Current value    Sensitivity
+   vmax_cell1      vmax_cell1      0.500001         0.291319    
+   km_cell1        km_cell1        1.040665E-03     1.664469E-03
+   diff_in_met1    diff_in_met1    9.006780E-02     9.091061E-03
+   diff_out_met    diff_out_met    9.000049E-02     0.802131    

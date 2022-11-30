@@ -1,0 +1,553 @@
+
+                      PEST RUN RECORD: CASE stirred
+
+
+PEST Version: 14.2
+
+
+PEST run mode:-
+
+   Parameter estimation mode
+
+
+Case dimensions:-
+
+   Number of parameters                           :     4
+   Number of adjustable parameters                :     4
+   Number of parameter groups                     :     4
+   Number of observations                         :    20
+   Number of prior estimates                      :     0
+
+
+Model command line(s):-
+
+   stirred.bat > nul
+
+
+Jacobian command line:-
+
+   na
+
+
+Model interface files:-
+
+   Templates:
+      Exp1.tpl
+   for model input files:
+      Exp1.inp
+
+   (Parameter values written using double precision protocol.)
+   (Decimal point always included.)
+
+   Instruction files:
+      Exp1_out.ins
+   for reading model output files:
+      Exp1_out.dat
+
+
+PEST-to-model message file:-
+
+   na
+
+
+Derivatives calculation:-
+
+Param        Increment   Increment   Increment   Forward or   Multiplier  Method
+group        type                    low bound   central      (central)   (central)
+vmax_cell1   relative    1.0000E-02   none         switch       2.000     parabolic
+km_cell1     relative    1.0000E-02   none         switch       2.000     parabolic
+diff_in_met1 relative    1.0000E-02   none         switch       2.000     parabolic
+diff_out_met relative    1.0000E-02   none         switch       2.000     parabolic
+
+
+Parameter definitions:-
+
+Name         Trans-            Change       Initial        Lower          Upper
+             formation         limit        value          bound          bound
+vmax_cell1   none              factor     0.400000       0.300000       0.600000    
+km_cell1     none              factor     1.500000E-03   8.000000E-04   2.000000E-03
+diff_in_met1 none              factor     9.500000E-02   8.000000E-02   0.100000    
+diff_out_met none              factor     8.500000E-02   8.000000E-02   0.100000    
+
+Name         Group          Scale         Offset        Model command number
+vmax_cell1   vmax_cell1    1.00000        0.00000            1
+km_cell1     km_cell1      1.00000        0.00000            1
+diff_in_met1 diff_in_met1  1.00000        0.00000            1
+diff_out_met diff_out_met  1.00000        0.00000            1
+
+
+Prior information:-
+
+   No prior information supplied
+
+
+Observations:-
+
+Observation name        Observation       Weight       Group
+ exp1h08c1              0.450820          1.000       exp1obgp    
+ exp1h08c2               2.94483          1.000       exp1obgp    
+ exp1h08c3              0.791582          1.000       exp1obgp    
+ exp1h08c4              0.291497          1.000       exp1obgp    
+ exp1h05c1              0.900826          1.000       exp1obgp    
+ exp1h05c2               1.59877          1.000       exp1obgp    
+ exp1h05c3               1.00016          1.000       exp1obgp    
+ exp1h05c4              0.854002          1.000       exp1obgp    
+ exp1h10c1               1.03382          1.000       exp1obgp    
+ exp1h10c2               1.14659          1.000       exp1obgp    
+ exp1h10c3               1.00704          1.000       exp1obgp    
+ exp1h10c4              0.984501          1.000       exp1obgp    
+ exp1h20c1               1.03412          1.000       exp1obgp    
+ exp1h20c2               1.00452          1.000       exp1obgp    
+ exp1h20c3               1.00727          1.000       exp1obgp    
+ exp1h20c4              0.999240          1.000       exp1obgp    
+ exp1h30c1              0.998717          1.000       exp1obgp    
+ exp1h30c2              0.964908          1.000       exp1obgp    
+ exp1h30c3               1.00727          1.000       exp1obgp    
+ exp1h30c4              0.999385          1.000       exp1obgp    
+
+
+Control settings:-
+
+   Initial lambda                                               :  5.0000    
+   Lambda adjustment factor                                     :  2.0000    
+   Sufficient new/old phi ratio per optimisation iteration      : 0.30000    
+   Limiting relative phi reduction between lambdas              : 3.00000E-02
+   Maximum trial lambdas per iteration                          :  10
+   Forgive model run failure during lamda testing               : no
+   Forgive model run failure during Jacobian runs               : no
+
+   Perform Broyden's update of Jacobian matrix                  : no
+   Undertake observation re-referencing                         : no
+
+   Maximum  factor  parameter change (factor-limited changes)   :  2.0000
+   Maximum relative parameter change (relative-limited changes) : na
+   Fraction of initial parameter values used in computing
+   change limit for near-zero parameters                        : 1.00000E-03
+   Allow bending of parameter upgrade vector                    : no
+   Allow parameters to stick to their bounds                    : no
+
+   Relative phi reduction below which to begin use of
+   central derivatives                                          : 0.10000             
+   Iteration at which to first consider derivatives switch      :   1
+
+   Relative phi reduction indicating convergence                : 0.10000E-01
+   Number of phi values required within this range              :   3
+   Maximum number of consecutive failures to lower phi          :   3
+   Minimal relative parameter change indicating convergence     : 0.10000E-01
+   Number of consecutive iterations with minimal param change   :   3
+   Maximum number of optimisation iterations                    :  30
+
+   Attempt automatic user intervention                          : no
+
+   Attempt reuse of parameter sensitivities                     : no
+
+   Scale parameters by their bounds                             : no
+
+
+File saving options: -
+
+   Save best JCO file                                           : yes
+   Save multiple JCO files                                      : no
+   Save multiple REI files                                      : no
+   Save multiple PAR files                                      : no
+
+
+                            OPTIMISATION RECORD
+
+
+INITIAL CONDITIONS: 
+   Sum of squared weighted residuals (ie phi) =  0.33935    
+
+      Current parameter values
+      vmax_cell1      0.400000    
+      km_cell1        1.500000E-03
+      diff_in_met1    9.500000E-02
+      diff_out_met    8.500000E-02
+
+
+OPTIMISATION ITERATION NO.        : 1
+   Model calls so far             : 1
+   Starting phi for this iteration:  0.33935    
+
+       Lambda =   5.0000     ----->
+          Phi =  3.19398E-04  (  0.001 of starting phi)
+
+   No more lambdas: phi is less than 0.3000 of starting phi
+   Lowest phi this iteration:  3.19398E-04
+
+      Current parameter values                 Previous parameter values
+      vmax_cell1      0.500001                 vmax_cell1       0.400000    
+      km_cell1        1.087397E-03             km_cell1         1.500000E-03
+      diff_in_met1    9.494936E-02             diff_in_met1     9.500000E-02
+      diff_out_met    9.117704E-02             diff_out_met     8.500000E-02
+   Maximum   factor change:  1.379     ["km_cell1"]
+   Maximum relative change: 0.2751     ["km_cell1"]
+
+
+OPTIMISATION ITERATION NO.        : 2
+   Model calls so far             : 6
+   Starting phi for this iteration:  3.19398E-04
+
+   Parameter "km_cell1" has no effect on observations.
+
+       Lambda =   2.5000     ----->
+          Phi =  6.22900E-08  (  0.000 of starting phi)
+
+   No more lambdas: phi is less than 0.3000 of starting phi
+   Lowest phi this iteration:  6.22900E-08
+
+      Current parameter values                 Previous parameter values
+      vmax_cell1      0.500004                 vmax_cell1       0.500001    
+      km_cell1        1.087397E-03             km_cell1         1.087397E-03
+      diff_in_met1    9.490480E-02             diff_in_met1     9.494936E-02
+      diff_out_met    9.004340E-02             diff_out_met     9.117704E-02
+   Maximum   factor change:  1.013     ["diff_out_met"]
+   Maximum relative change: 1.2433E-02 ["diff_out_met"]
+
+
+OPTIMISATION ITERATION NO.        : 3
+   Model calls so far             : 11
+   Starting phi for this iteration:  6.22900E-08
+
+       Lambda =   1.2500     ----->
+          Phi =  2.73150E-08  (  0.439 of starting phi)
+
+       Lambda =  0.62500     ----->
+          Phi =  2.67520E-08  (  0.429 of starting phi)
+
+   No more lambdas: relative phi reduction between lambdas less than 0.0300
+   Lowest phi this iteration:  2.67520E-08
+
+      Current parameter values                 Previous parameter values
+      vmax_cell1      0.500008                 vmax_cell1       0.500004    
+      km_cell1        1.667087E-03             km_cell1         1.087397E-03
+      diff_in_met1    9.450855E-02             diff_in_met1     9.490480E-02
+      diff_out_met    9.005340E-02             diff_out_met     9.004340E-02
+   Maximum   factor change:  1.533     ["km_cell1"]
+   Maximum relative change: 0.5331     ["km_cell1"]
+
+
+OPTIMISATION ITERATION NO.        : 4
+   Model calls so far             : 17
+   Starting phi for this iteration:  2.67520E-08
+
+       Lambda =  0.31250     ----->
+          Phi =  3.99500E-09  (  0.149 of starting phi)
+
+   No more lambdas: phi is less than 0.3000 of starting phi
+   Lowest phi this iteration:  3.99500E-09
+
+      Current parameter values                 Previous parameter values
+      vmax_cell1      0.500002                 vmax_cell1       0.500008    
+      km_cell1        2.000000E-03             km_cell1         1.667087E-03
+      diff_in_met1    9.160868E-02             diff_in_met1     9.450855E-02
+      diff_out_met    9.001749E-02             diff_out_met     9.005340E-02
+   Maximum   factor change:  1.200     ["km_cell1"]
+   Maximum relative change: 0.1997     ["km_cell1"]
+
+
+OPTIMISATION ITERATION NO.        : 5
+   Model calls so far             : 22
+   Starting phi for this iteration:  3.99500E-09
+       param "km_cell1" frozen: gradient and update vectors out of bounds
+
+       Lambda =  0.15625     ----->
+          Phi =  2.46200E-09  (  0.616 of starting phi)
+
+       Lambda =  7.81250E-02 ----->
+          Phi =  1.84600E-09  (  0.462 of starting phi)
+
+       Lambda =  3.90625E-02 ----->
+          Phi =  1.49200E-09  (  0.373 of starting phi)
+
+       Lambda =  1.95313E-02 ----->
+          Phi =  1.27900E-09  (  0.320 of starting phi)
+
+       Lambda =  9.76563E-03 ----->
+          Phi =  1.21900E-09  (  0.305 of starting phi)
+
+       Lambda =  4.88281E-03 ----->
+          Phi =  1.19600E-09  (  0.299 of starting phi)
+
+   No more lambdas: phi is less than 0.3000 of starting phi
+   Lowest phi this iteration:  1.19600E-09
+
+      Current parameter values                 Previous parameter values
+      vmax_cell1      0.500004                 vmax_cell1       0.500002    
+      km_cell1        2.000000E-03             km_cell1         2.000000E-03
+      diff_in_met1    9.035873E-02             diff_in_met1     9.160868E-02
+      diff_out_met    9.000446E-02             diff_out_met     9.001749E-02
+   Maximum   factor change:  1.014     ["diff_in_met1"]
+   Maximum relative change: 1.3644E-02 ["diff_in_met1"]
+
+
+OPTIMISATION ITERATION NO.        : 6
+   Model calls so far             : 32
+   Starting phi for this iteration:  1.19600E-09
+   All frozen parameters freed.
+
+       Lambda =  2.44141E-03 ----->
+          Phi =  6.17000E-10  (  0.516 of starting phi)
+
+       Lambda =  1.22070E-03 ----->
+          Phi =  6.17000E-10  (  0.516 of starting phi)
+
+   No more lambdas: relative phi reduction between lambdas less than 0.0300
+   Lowest phi this iteration:  6.17000E-10
+
+      Current parameter values                 Previous parameter values
+      vmax_cell1      0.500003                 vmax_cell1       0.500004    
+      km_cell1        1.697773E-03             km_cell1         2.000000E-03
+      diff_in_met1    9.019666E-02             diff_in_met1     9.035873E-02
+      diff_out_met    9.000194E-02             diff_out_met     9.000446E-02
+   Maximum   factor change:  1.178     ["km_cell1"]
+   Maximum relative change: 0.1511     ["km_cell1"]
+
+
+OPTIMISATION ITERATION NO.        : 7
+   Model calls so far             : 38
+   Starting phi for this iteration:  6.17000E-10
+
+       Lambda =  1.22070E-03 ----->
+          Phi =  3.25000E-10  (  0.527 of starting phi)
+
+       Lambda =  6.10352E-04 ----->
+          Phi =  3.25000E-10  (  0.527 of starting phi)
+
+   No more lambdas: relative phi reduction between lambdas less than 0.0300
+   Lowest phi this iteration:  3.25000E-10
+
+      Current parameter values                 Previous parameter values
+      vmax_cell1      0.500002                 vmax_cell1       0.500003    
+      km_cell1        1.289374E-03             km_cell1         1.697773E-03
+      diff_in_met1    8.955277E-02             diff_in_met1     9.019666E-02
+      diff_out_met    8.999485E-02             diff_out_met     9.000194E-02
+   Maximum   factor change:  1.317     ["km_cell1"]
+   Maximum relative change: 0.2405     ["km_cell1"]
+
+
+OPTIMISATION ITERATION NO.        : 8
+   Model calls so far             : 44
+   Starting phi for this iteration:  3.25000E-10
+
+       Lambda =  6.10352E-04 ----->
+          Phi =  3.60000E-11  (  0.111 of starting phi)
+
+   No more lambdas: phi is less than 0.3000 of starting phi
+   Lowest phi this iteration:  3.60000E-11
+
+      Current parameter values                 Previous parameter values
+      vmax_cell1      0.500001                 vmax_cell1       0.500002    
+      km_cell1        1.213543E-03             km_cell1         1.289374E-03
+      diff_in_met1    9.002583E-02             diff_in_met1     8.955277E-02
+      diff_out_met    9.000018E-02             diff_out_met     8.999485E-02
+   Maximum   factor change:  1.062     ["km_cell1"]
+   Maximum relative change: 5.8812E-02 ["km_cell1"]
+
+
+OPTIMISATION ITERATION NO.        : 9
+   Model calls so far             : 49
+   Starting phi for this iteration:  3.60000E-11
+
+   Parameter "km_cell1" has no effect on observations.
+
+       Lambda =  3.05176E-04 ----->
+          Phi =  3.50000E-11  (  0.972 of starting phi)
+
+       Lambda =  1.52588E-04 ----->
+          Phi =  3.50000E-11  (  0.972 of starting phi)
+
+   No more lambdas: relative phi reduction between lambdas less than 0.0300
+   Lowest phi this iteration:  3.50000E-11
+   Relative phi reduction between optimisation iterations less than 0.1000
+   Switch to higher order derivatives calculation
+
+      Current parameter values                 Previous parameter values
+      vmax_cell1      0.500001                 vmax_cell1       0.500001    
+      km_cell1        1.213543E-03             km_cell1         1.213543E-03
+      diff_in_met1    9.004439E-02             diff_in_met1     9.002583E-02
+      diff_out_met    9.000035E-02             diff_out_met     9.000018E-02
+   Maximum   factor change:  1.000     ["diff_in_met1"]
+   Maximum relative change: 2.0624E-04 ["diff_in_met1"]
+
+
+OPTIMISATION ITERATION NO.        : 10
+   Model calls so far             : 55
+   Starting phi for this iteration:  3.50000E-11
+
+       Lambda =  1.52588E-04 ----->
+          Phi =  7.00000E-12  (  0.200 of starting phi)
+
+   No more lambdas: phi is less than 0.3000 of starting phi
+   Lowest phi this iteration:  7.00000E-12
+
+      Current parameter values                 Previous parameter values
+      vmax_cell1      0.500001                 vmax_cell1       0.500001    
+      km_cell1        1.103175E-03             km_cell1         1.213543E-03
+      diff_in_met1    9.008317E-02             diff_in_met1     9.004439E-02
+      diff_out_met    9.000064E-02             diff_out_met     9.000035E-02
+   Maximum   factor change:  1.100     ["km_cell1"]
+   Maximum relative change: 9.0947E-02 ["km_cell1"]
+
+
+OPTIMISATION ITERATION NO.        : 11
+   Model calls so far             : 64
+   Starting phi for this iteration:  7.00000E-12
+
+       Lambda =  7.62939E-05 ----->
+          Phi =  1.00000E-12  (  0.143 of starting phi)
+
+   No more lambdas: phi is less than 0.3000 of starting phi
+   Lowest phi this iteration:  1.00000E-12
+
+      Current parameter values                 Previous parameter values
+      vmax_cell1      0.500001                 vmax_cell1       0.500001    
+      km_cell1        1.062060E-03             km_cell1         1.103175E-03
+      diff_in_met1    9.005113E-02             diff_in_met1     9.008317E-02
+      diff_out_met    9.000029E-02             diff_out_met     9.000064E-02
+   Maximum   factor change:  1.039     ["km_cell1"]
+   Maximum relative change: 3.7269E-02 ["km_cell1"]
+
+
+OPTIMISATION ITERATION NO.        : 12
+   Model calls so far             : 73
+   Starting phi for this iteration:  1.00000E-12
+
+       Lambda =  3.81470E-05 ----->
+          Phi =   0.0000      (  0.000 of starting phi)
+
+   No more lambdas: phi is less than 0.3000 of starting phi
+   Lowest phi this iteration:   0.0000    
+
+      Current parameter values                 Previous parameter values
+      vmax_cell1      0.500001                 vmax_cell1       0.500001    
+      km_cell1        1.040665E-03             km_cell1         1.062060E-03
+      diff_in_met1    9.006780E-02             diff_in_met1     9.005113E-02
+      diff_out_met    9.000049E-02             diff_out_met     9.000029E-02
+   Maximum   factor change:  1.021     ["km_cell1"]
+   Maximum relative change: 2.0146E-02 ["km_cell1"]
+
+   Optimisation complete: phi is zero
+   Total model calls:     82
+
+   The model has been run one final time using best parameters. 
+   Thus all model input files contain best parameter values, and model 
+   output files contain model results based on these parameters.
+
+
+                            OPTIMISATION RESULTS
+
+
+Parameters ----->
+
+Parameter        Estimated         95% percent confidence limits
+                 value             lower limit       upper limit
+ vmax_cell1     0.500001           0.500001          0.500001    
+ km_cell1       1.040665E-03       1.040665E-03      1.040665E-03
+ diff_in_met1   9.006780E-02       9.006780E-02      9.006780E-02
+ diff_out_met   9.000049E-02       9.000049E-02      9.000049E-02
+
+Note: confidence limits provide only an indication of parameter uncertainty.
+      They rely on a linearity assumption which  may not extend as far in 
+      parameter space as the confidence limits themselves - see PEST manual.
+
+See file stirred.sen for parameter sensitivities.
+
+
+Observations ----->
+
+Observation            Measured       Calculated     Residual       Weight     Group
+                       value          value
+exp1h08c1             0.450820       0.450820        0.00000        1.000      exp1obgp    
+exp1h08c2              2.94483        2.94483        0.00000        1.000      exp1obgp    
+exp1h08c3             0.791582       0.791582        0.00000        1.000      exp1obgp    
+exp1h08c4             0.291497       0.291497        0.00000        1.000      exp1obgp    
+exp1h05c1             0.900826       0.900826        0.00000        1.000      exp1obgp    
+exp1h05c2              1.59877        1.59877        0.00000        1.000      exp1obgp    
+exp1h05c3              1.00016        1.00016        0.00000        1.000      exp1obgp    
+exp1h05c4             0.854002       0.854002        0.00000        1.000      exp1obgp    
+exp1h10c1              1.03382        1.03382        0.00000        1.000      exp1obgp    
+exp1h10c2              1.14659        1.14659        0.00000        1.000      exp1obgp    
+exp1h10c3              1.00704        1.00704        0.00000        1.000      exp1obgp    
+exp1h10c4             0.984501       0.984501        0.00000        1.000      exp1obgp    
+exp1h20c1              1.03412        1.03412        0.00000        1.000      exp1obgp    
+exp1h20c2              1.00452        1.00452        0.00000        1.000      exp1obgp    
+exp1h20c3              1.00727        1.00727        0.00000        1.000      exp1obgp    
+exp1h20c4             0.999240       0.999240        0.00000        1.000      exp1obgp    
+exp1h30c1             0.998717       0.998717        0.00000        1.000      exp1obgp    
+exp1h30c2             0.964908       0.964908        0.00000        1.000      exp1obgp    
+exp1h30c3              1.00727        1.00727        0.00000        1.000      exp1obgp    
+exp1h30c4             0.999385       0.999385        0.00000        1.000      exp1obgp    
+
+See file stirred.res for more details of residuals in graph-ready format.
+
+See file stirred.seo for composite observation sensitivities.
+
+
+Objective function ----->
+
+  Sum of squared weighted residuals (ie phi)                =   0.000    
+
+
+Correlation Coefficient ----->
+
+  Correlation coefficient                                   =   1.0000    
+
+
+Analysis of residuals ----->
+
+  All residuals:-
+     Number of residuals with non-zero weight                       =    20
+     Mean value of non-zero weighted residuals                      =   0.000    
+     Maximum weighted residual [observation "exp1h08c1"]            =   0.000    
+     Minimum weighted residual [observation "exp1h08c1"]            =   0.000    
+     Standard variance of weighted residuals                        =   0.000    
+     Standard error of weighted residuals                           =   0.000    
+
+     Note: the above variance was obtained by dividing the objective 
+     function by the number of system degrees of freedom (ie. number of 
+     observations with non-zero weight plus number of prior information 
+     articles with non-zero weight minus the number of adjustable parameters.)
+     If the degrees of freedom is negative the divisor becomes 
+     the number of observations with non-zero weight plus the number of 
+     prior information items with non-zero weight.
+
+
+K-L information statistics ----->
+
+
+  AIC   = **************
+  AICC  = indeterminate
+  BIC   = **************
+  KIC   = indeterminate
+
+Parameter covariance matrix ----->
+
+              vmax_cell1    km_cell1   diff_in_met1 diff_out_met
+vmax_cell1     3.2535E-52   1.4853E-50   8.1007E-51   9.7113E-53
+km_cell1       1.4853E-50   9.7034E-48   2.5904E-49   3.1545E-51
+diff_in_met1   8.1007E-51   2.5904E-49   8.5154E-48   9.4913E-50
+diff_out_met   9.7113E-53   3.1545E-51   9.4913E-50   1.0969E-51
+
+
+Parameter correlation coefficient matrix ----->
+
+              vmax_cell1    km_cell1   diff_in_met1 diff_out_met
+vmax_cell1      1.000       0.2644       0.1539       0.1626    
+km_cell1       0.2644        1.000       2.8498E-02   3.0576E-02
+diff_in_met1   0.1539       2.8498E-02    1.000       0.9821    
+diff_out_met   0.1626       3.0576E-02   0.9821        1.000    
+
+
+Normalized eigenvectors of parameter covariance matrix ----->
+
+              Vector_1     Vector_2     Vector_3     Vector_4   
+vmax_cell1    -2.4986E-02   0.9997       5.7847E-04  -1.6598E-03
+km_cell1       1.0099E-05  -1.5068E-03  -0.2043      -0.9789    
+diff_in_met1  -1.1118E-02  -1.1836E-03   0.9788      -0.2043    
+diff_out_met   0.9996       2.4974E-02   1.0904E-02  -2.3043E-03
+
+
+Eigenvalues ----->
+
+               3.8829E-53   2.9579E-52   8.4624E-48   9.7575E-48
